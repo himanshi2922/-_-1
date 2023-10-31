@@ -1,0 +1,221 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F3CBD3;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color:#F7ABBA ;
+    color: #fff;
+    padding: 1px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:black;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+/* mainpage section styles */
+#mainpage {
+    background-image: url('images/mainbackground.jpeg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+#mainpage h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#mainpage p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+    font-weight: bolder;
+    color: white;
+    border-color: black;
+}
+
+/* home section styles */
+#home {
+    margin: 10px;
+    padding: 200px 50px ;
+    background-color:  #F3CBD3;
+    background-image:url("./images/istockphoto-1341004223-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 600px;
+
+    border-radius: 10px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    font-family: 'Dancing Script', cursive;
+}
+#home img{
+    width: 500px;
+    height: 350px;
+    background-size: cover;
+    text-align: center;
+    padding: 90px 0;
+}
+#home p{
+    text-align: center;
+    }
+.btn2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: palevioletred;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 900px;
+}
+
+
+#home h2{
+    text-align:center;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+
+/* shop section styles */
+
+#shop h2{
+    font-family: 'Dancing Script', cursive;
+}
+#shop h3{
+    font-weight: bold;
+    font-family: 'Outfit', sans-serif;
+}
+#shop h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#shop img{
+    width: 250px;
+    height: 270px;
+}
+
+#shop{
+    background-color: white;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(100px , auto));
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+/* about section styles */
+#about {
+    background-color: #fff;
+    background-image: url("./images/pic.jpeg");
+    border-radius: 20%;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+}
+.aboutus{
+        text-align: center;
+        margin-top: 6px;
+        margin-left: 600px;
+}
+.aboutus h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-left: 30px;
+    text-shadow: #F7ABBA;
+}
+.about {
+    margin: 20px;
+    padding: 20px;
+    background-color: #F7ABBA;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color:black;
+    margin: 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #F7ABBA;
+    padding: 50px 0;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: peru;
+    ;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
